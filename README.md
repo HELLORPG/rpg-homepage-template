@@ -4,10 +4,14 @@
 @date 2022.8.25
 ```
 
-基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)，修改部分样式和组件，设计了个人主页。
+基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)，修改部分样式和组件，设计实现了个人主页模板。
+
+![image-20220829001615848](img/demo.png)
+
 
 
 ## 配置环境
+
 使用如下指令即可配置环境：
 ```shell
 npm install
@@ -52,7 +56,7 @@ server {
         listen       443        ssl;
         ssl_certificate         [.pem file path];
         ssl_certificate_key     [.key file path];
-        ssl_session_timeout 5m;
+        ssl_session_timeout 	5m;
         ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
         ssl_ciphers AESGCM:ALL:!DH:!EXPORT:!RC4:+HIGH:!MEDIUM:!LOW:!aNULL:!eNULL;
         ssl_prefer_server_ciphers on;
@@ -63,9 +67,9 @@ server {
 为了将所有 http 的访问都重定向到 https 下，可以新建一个配置文件如下：
 ```text
 server {
-    listen       80;
-    server_name  hostname1 hostname2;
-    return 301 https://$server_name$request_uri;
+    listen			80;
+    server_name		hostname1 hostname2;
+    return 			301	https://$server_name$request_uri;
 }
 ```
 重启服务即可。
