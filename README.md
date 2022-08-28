@@ -4,7 +4,7 @@
 @date 2022.8.25
 ```
 
-基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)，修改部分样式和组件，设计实现了个人主页的模板。
+基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)，修改部分样式和组件，设计实现了个人主页[![Ruopeng Gao's: Homepage (shields.io)](https://img.shields.io/badge/Ruopeng Gao's-Homepage-%234994c4?style=flat-square)](https://ruopenggao.com/)的模板。
 
 ![image-20220829001615848](img/rpg-homepage.png)
 
