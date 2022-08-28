@@ -17,7 +17,7 @@
 
 本人的前端能力可以说是非常差，所以如果代码中有什么问题或者糟糕的写法，欢迎提出。
 
-另外，如果你使用了本仓库的模板，没有其他特殊的原因的话，希望能够在主页中显式提到[本仓库](https://github.com/HELLORPG/rpg-homepage-template)和 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 主题所做出的贡献。在初始代码生成的 demo 中，页脚部分注明了如上部分的致谢内容。
+另外，如果你使用了本仓库的模板，没有其他特殊的原因的话，希望能够在主页中显式提到[本仓库](https://github.com/HELLORPG/rpg-homepage-template)和 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 主题所做出的贡献。在初始代码生成的 demo 中，页脚部分注明了如上所提到的致谢内容。
 
 
 
