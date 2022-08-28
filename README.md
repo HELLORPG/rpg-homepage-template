@@ -4,9 +4,17 @@
 @date 2022.8.25
 ```
 
-基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)，修改部分样式和组件，设计实现了个人主页模板。
+基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)，修改部分样式和组件，设计实现了个人主页的模板。
 
-![image-20220829001615848](img/demo.png)
+![image-20220829001615848](img/rpg-homepage.png)
+
+
+
+## 写在前面 :tada:
+
+本人的前端能力可以说是非常差，所以如果代码中有什么问题或者糟糕的写法，也欢迎提出。
+
+另外，如果你使用了本仓库的模板，没有其他特殊的原因的话，希望能够在主页中显式提到[本仓库](https://github.com/HELLORPG/rpg-homepage-template)和 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 主题所做出的贡献。在初始代码生成的 demo 中，页脚部分注明了如上部分的致谢内容。
 
 
 
@@ -16,6 +24,49 @@
 ```shell
 npm install
 ```
+
+
+
+## 相关指令
+
+如果你需要在开发环境测试网页，可以使用如下指令：
+
+```shell
+npm run docs:dev
+```
+
+如果需要打包成为一个部署所需的网站整体，可以运行`build.sh`脚本：
+
+```shell
+sh build.sh
+```
+
+网站的所有文件会在`docs/.vuepress/dist/`下输出。
+
+
+
+## 构建你的主页
+
+本仓库的代码在正确运行之后，可以生成一个样例网站如下所示：
+
+![image-20220829005000883](img/demo-homepage.png)
+
+你可以很容易的在这个网站的代码中增加属于你自己的描述，从而快速构建一个属于你的个人主页。对于修改的方式，有两种方法：
+
+### 暴力搜索修改法
+
+这也是我最推荐的方式，如果你不知道需要修改哪里才能够完整的展示你个人的信息，你可以直接选择在文件中搜索你想要修改的部分的文字，并且做出修改（或者仿造其进行增加）即可，而不需要理解他们背后的运作机理。
+
+推荐这种方法的原因主要有两个：
+
+1. 我个人的前端技术非常有限，并且也没有太多的时间写一份文档来详细说明每一个需要修改的部分，能力与时间都非常受限。
+2. **这种方法真的足够快。**
+
+### 认真求学修改法
+
+个人主页模板是基于[vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)搭建的，并且对框架做出了一些修改。因此，**如果想要更好的修改网站并且做出自己的设计，强烈建议参考[vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)的文档，几乎你的每一个问题都可以得到解答。**
+
+实际上，如果你觉得仓库中给出的设计和你的想法大相径庭，还是非常建议直接在 vuepress-theme-hope 的主题上进行修改，可塑性会更高。
 
 
 
