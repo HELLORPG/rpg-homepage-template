@@ -1,0 +1,53 @@
+.blog-home {
+  flex: 1 !important;
+  max-width: 800px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-top: 2rem !important;
+}
+
+// 如下修改可以是的 BloggerInfo 上方与导航栏留出空隙
+.blog-info-wrapper {
+  padding-top: 10px !important;
+  flex: 0 0 300px !important;
+}
+
+// 将文章统计组件去除
+.num-wrapper {
+  display: none !important;
+}
+
+// 去除博客信息组件
+.blog-info-list {
+  display: none !important;
+}
+
+// 删除了在窄页面情况下左侧的 sidebar 图标
+.toggle-sidebar-button {
+  display: none !important;
+}
+
+// 不在左上角展示 logo 图片
+.logo {
+  display: none !important;
+}
+
+// 对 BloggerInfo 中的图片大小进行调整
+.blogger-avatar {
+  width: 14em !important;
+  height: 14em !important;
+}
+
+// 用于增加iOS下的流畅性
+#nav-screen {
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.appearance-wrapper {
+  //align-items: center !important;
+  //vertical-align: 105% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
