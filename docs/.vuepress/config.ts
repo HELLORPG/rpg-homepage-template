@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   plugins: [
     sitemapPlugin({ // 从 sitemap 中去除不需要的页面
-      hostname: "Your hostname.",
+      hostname: "www.your-hostname.com",
       excludeUrls: ["/timeline/", "/category/", "/star/", "/slide/", "/encrypted/", "/article/", "/tag/",
         "/zh/timeline/", "/zh/category/", "/zh/star/", "/zh/slide/", "/zh/encrypted/", "/zh/article/", "/zh/tag/",
         "/intro.html", "/slide.html", "/home.html"],

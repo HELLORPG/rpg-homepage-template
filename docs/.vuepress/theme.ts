@@ -4,7 +4,7 @@ import * as sidebar from "./sidebar";
 
 export default hopeTheme({
   // 部署到的网址
-  hostname: "your hostname, such as 'xxx.com'.",
+  hostname: "www.your-hostname.com",
 
   // 默认作者
   // author: {
