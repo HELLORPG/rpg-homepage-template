@@ -21,6 +21,16 @@
 
 
 
+## 目录
+
+- [配置环境](#配置环境)
+- [相关指令](#相关指令)
+- [构建你的主页](#构建你的主页)
+- [部署在服务器](#部署在服务器)
+- [部署在GitHub](#部署在 GitHub)
+
+
+
 ## 配置环境
 
 作者使用的配置环境如下：
@@ -76,7 +86,7 @@ sh build.sh
 
 ### 认真求学修改法
 
-个人主页模板是基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 搭建的，并且对框架做出了一些修改。因此，**如果想要更好的修改网站并且做出自己的设计，强烈建议参考 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 的文档，几乎你的每一个问题都可以得到解答，本仓库并没有对原本的主题做结构上的大修改。**
+个人主页模板是基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 搭建的，并且对框架做出了一些修改。因此，**如果想要更好地修改网站并且做出自己的设计，强烈建议参考 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 的文档，几乎你的每一个问题都可以得到解答，本仓库并没有对原本的主题做结构上的大修改。**
 
 实际上，如果你觉得仓库中给出的设计和你的想法大相径庭，还是非常建议直接在 vuepress-theme-hope 的主题上进行修改，可塑性会更高。
 
