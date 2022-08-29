@@ -28,6 +28,10 @@
   - node.js: v18.4.0
   - npm: v8.13.1
 
+- Windows
+  - node.js: v16.15.1
+  - npm: v8.12.2
+
 使用如下指令即可配置环境：
 ```shell
 npm install
