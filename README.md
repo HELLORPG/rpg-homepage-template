@@ -9,7 +9,7 @@
 
 基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)，修改部分样式和组件，设计实现了个人主页 [Ruopeng Gao's Homepage](https://ruopenggao.com) 的模板。
 
-![image-20220829001615848](img/rpg-homepage.png)
+![rpg-homepage](img/rpg-homepage.png)
 
 
 
@@ -57,7 +57,7 @@ sh build.sh
 
 本仓库的代码在正确运行之后，可以生成一个样例网站如下所示：
 
-![image-20220829005000883](img/demo-homepage.png)
+![demo-homepage](img/demo-homepage.png)
 
 你可以很容易的在这个网站的代码中增加属于你自己的描述，从而快速构建一个属于你的个人主页。对于修改的方式，有两种方法：
 
