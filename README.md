@@ -17,7 +17,7 @@
 
 本人的前端能力可以说是非常差，所以如果代码中有什么问题或者糟糕的写法，欢迎提出。
 
-另外，如果你使用了本仓库的模板，没有其他特殊的原因的话，希望能够在主页中显式提到[本仓库](https://github.com/HELLORPG/rpg-homepage-template)和 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 主题所做出的贡献。在初始代码生成的 demo 中，页脚部分注明了如上所提到的致谢内容。
+另外，如果你使用了本仓库的模板，没有其他特殊的原因的话，希望能够在主页中显式提到 [本仓库](https://github.com/HELLORPG/rpg-homepage-template) 和 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 主题所做出的贡献。在初始代码生成的 demo 中，页脚部分注明了如上所提到的致谢内容。
 
 
 
@@ -67,7 +67,7 @@ sh build.sh
 
 ### 认真求学修改法
 
-个人主页模板是基于[vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)搭建的，并且对框架做出了一些修改。因此，**如果想要更好的修改网站并且做出自己的设计，强烈建议参考[vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/)的文档，几乎你的每一个问题都可以得到解答。**
+个人主页模板是基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 搭建的，并且对框架做出了一些修改。因此，**如果想要更好的修改网站并且做出自己的设计，强烈建议参考 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/) 的文档，几乎你的每一个问题都可以得到解答，本仓库并没有对原本的主题做结构上的大修改。**
 
 实际上，如果你觉得仓库中给出的设计和你的想法大相径庭，还是非常建议直接在 vuepress-theme-hope 的主题上进行修改，可塑性会更高。
 
@@ -131,3 +131,10 @@ server {
 参考链接：
 - [https://segmentfault.com/a/1190000022673232](https://segmentfault.com/a/1190000022673232)
 
+
+
+## 部署在 GitHub
+
+vuepress-theme-hope 提供了非常简单的部署到 GitHub 的方法，具体部署方法可以参考其文档中 [部署项目](https://vuepress-theme-hope.github.io/v2/zh/cookbook/tutorial/deploy.html) 一章。
+
+值得注意的是，本仓库在使用 vuepress-theme-hope 建立之初，并没有创建 GitHub 工作流，因此需要根据教程进行创建；又或是可以选择 [直接创建 vuepress-theme-hope 的运行环境](https://vuepress-theme-hope.github.io/v2/zh/cookbook/tutorial/env.html)，在创建过程中选择创建 GitHub 工作流，并且将本仓库中的文件替换到创建好的运行环境中即可。
