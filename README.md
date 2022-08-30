@@ -25,7 +25,7 @@
 
 - [配置环境](#配置环境)
 - [相关指令](#相关指令)
-- [构建你的主页](#构建你的主页)
+- **[构建你的主页 ‼](#构建你的主页)**
 - [部署在服务器](#部署在服务器)
 - [部署在GitHub](#部署在-GitHub)
 
@@ -73,7 +73,16 @@ sh build.sh
 
 ![demo-homepage](img/demo-homepage.png)
 
-你可以很容易的在这个网站的代码中增加属于你自己的描述，从而快速构建一个属于你的个人主页。对于修改的方式，有两种方法：
+你可以很容易的在这个网站的代码中增加属于你自己的描述，从而快速构建一个属于你的个人主页，一般来说你需要修改如下部分：
+
+- **主页面**，直接修改 [README.md](./docs/README.md) 文件。
+- **你的照片**，替换 [logo.png](./docs/.vuepress/public/logo.png) 即可，**注意比例尺为正方形**。
+- **标签页的图标**，替换 [favicon.ico](./docs/.vuepress/public/favicon.ico) 文件，**否则在你的标签页上将一直保留 demo 中的 logo**。
+- **你的简介/姓名/网页标题/社交软件链接**，在 [config.ts](./docs/.vuepress/config.ts) 和 [theme.ts](./docs/.vuepress/theme.ts) 中修改即可。
+- **导航栏内容**，在 [navbar/en.ts](./docs/.vuepress/navbar/en.ts) 中增加或者删除英文页面下的导航栏内容，[navbar/zh.ts](./docs/.vuepress/navbar/zh.ts) 下同理修改中文页面。
+- **修改网址**，在 [config.ts](./docs/.vuepress/config.ts) 和 [theme.ts](./docs/.vuepress/theme.ts) 中修改 `hostname` 字段即可。
+
+对于上述修改，有两种方式可以完成：
 
 ### 暴力搜索修改法
 
